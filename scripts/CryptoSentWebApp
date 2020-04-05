@@ -3,6 +3,11 @@
 Example script
 """
 
+from CryptoSentWebApp.runner import Runner
+
 if __name__ == '__main__':
-    print("Hello world!")
+    runner = Runner(
+        reddit_secrets_path='tst/CryptoSentWebApp/Reddit'
+    )
+    runner.run()
 

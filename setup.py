@@ -43,6 +43,7 @@ setup(
         # $ pip3 install demo[webserver]
     },
     scripts=[
+        'scripts/CryptoSentWebApp'
         # [OPTIONAL]
         # If you need executable scripts for your application, then you should place them in
         # the scripts/ folder and add them to this list here. You MUST add one of the following
