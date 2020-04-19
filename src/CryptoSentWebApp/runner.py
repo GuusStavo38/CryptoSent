@@ -1,5 +1,5 @@
 """ Run the script with command line arguments """
-from CryptoSentWebApp.upstream import Upstream
+from CryptoSentWebApp.media.reddit_upstream import Upstream
 from CryptoSentWebApp import config
 
 
